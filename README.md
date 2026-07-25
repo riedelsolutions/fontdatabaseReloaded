@@ -8,8 +8,6 @@ It's pretty much everyday that designers are completing a project, and ~~they~~ 
 FontDatabase lets you input the font you have in mind, and a parameter— Do you need a font more minimal (sans-serif)? One that's more detailed (serif)? Do you want to be more liberal and get suggestions on more formal or informal fonts? FontDatabase gives you all these alternatives in seconds.
 
 
-FontDatabase is the first product I made for my tech startup, [The M Company](https://TheMComp.com).
-
 ## Why not...?
 FontDatabase isn't the only font suggestion tool that exists. It wasn't the first, and plenty more came after. So **what makes FontDatabase.app uniquely useful?**
 
