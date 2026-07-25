@@ -1,0 +1,74 @@
+# Ordered informal -> formal. One font name per line. Reorder or insert lines to re-rank.
+Blackladder ITC
+Comic Sans MS
+Forte
+Luna
+Brush Script MT
+Freestyle Script
+Mistral
+Harlow Solid
+Magneto Bold
+Impact
+BrittanicBold
+Bauhaus 93
+Haettenschweiler
+Muskaters
+High Tide
+Tox Typewriter
+Eras Bold ITC
+Bebas
+LemonMilk
+Code
+Cocomat Light
+Berlin Sans FB
+Bahnschrift
+museo slab 500
+Constantia
+Consolas
+Ebrima
+Corbel
+Frutiger
+Calibri
+Candara
+Myriad
+Calisto MT
+CalifornianFB
+Asgalt
+Gravity
+Open Sans
+Raleway
+Rockwell
+ITC Blair
+Agency FB
+Cocon
+Agent
+Courier New
+Arial
+Centaur
+Gill Sans
+Minion Pro
+Verdana
+Baskerville Old Face
+Letter Gothic std
+Encode Sans Condensed
+Montserrat
+Roboto
+DIN
+Times New Roman
+Century Gothic
+Franklin Gothic Book
+Book Antiqua
+Garamond
+Georgia
+Avenir
+FF Meta Pro Hairline
+NEOTERIC Bold
+Univers
+Futura
+Elephant
+Bodoni MT
+Modern no. 20
+Didot
+Trajan
+Marbre Sans
+Bickham Script

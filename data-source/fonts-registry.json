@@ -1,0 +1,367 @@
+[
+  {
+    "name": "Agency FB",
+    "link": "http://allfont.net/download/agency-fb/",
+    "img": "agencyfb.png"
+  },
+  {
+    "name": "Agent",
+    "link": "https://befonts.com/agent-typeface.html",
+    "img": "agent.png"
+  },
+  {
+    "name": "Arial",
+    "link": "https://docs.microsoft.com/en-us/typography/font-list/arial",
+    "img": "arial.png"
+  },
+  {
+    "name": "Asgalt",
+    "link": "https://www.dafont.com/asgalt.font",
+    "img": "asgalt.png"
+  },
+  {
+    "name": "Avenir",
+    "link": "https://www.myfonts.com/fonts/linotype/avenir/",
+    "img": "avenir.png"
+  },
+  {
+    "name": "Bahnschrift",
+    "link": "",
+    "img": "bahnschrift.png"
+  },
+  {
+    "name": "Baskerville Old Face",
+    "link": "https://www.myfonts.com/fonts/urw/baskerville-old-face/alternate_cuts.html",
+    "img": "baskervilleoldface.png"
+  },
+  {
+    "name": "Bauhaus 93",
+    "link": "https://www.fonts.com/font/urw/bauhaus-93/regular",
+    "img": "bauhaus93.png"
+  },
+  {
+    "name": "Bebas",
+    "link": "https://www.dafont.com/bebas.font",
+    "img": "bebas.png"
+  },
+  {
+    "name": "Berlin Sans FB",
+    "link": "http://fontsgeek.com/fonts/Berlin-Sans-FB-Regular",
+    "img": "berlinsansfb.png"
+  },
+  {
+    "name": "Bickham Script",
+    "link": "https://www.fonts.com/font/adobe/bickham-script",
+    "img": "bickhamscript.png"
+  },
+  {
+    "name": "Blackladder ITC",
+    "link": "https://docs.microsoft.com/en-us/typography/font-list/blackadder-itc#blackadder-itc",
+    "img": "blackladderitc.png"
+  },
+  {
+    "name": "Bodoni MT",
+    "link": "https://docs.microsoft.com/en-us/typography/font-list/bodoni-mt",
+    "img": "bodonimt.png"
+  },
+  {
+    "name": "Book Antiqua",
+    "link": "https://docs.microsoft.com/en-us/typography/font-list/book-antiqua",
+    "img": "bookantiqua.png"
+  },
+  {
+    "name": "BrittanicBold",
+    "link": "http://fontsgeek.com/fonts/Britannic-Bold-Regular",
+    "img": "brittanicbold.png"
+  },
+  {
+    "name": "Brush Script MT",
+    "link": "https://www.fonts.com/font/adobe/brush-script",
+    "img": "brushscriptmt.png"
+  },
+  {
+    "name": "Calibri",
+    "link": "https://docs.microsoft.com/ru-ru/typography/font-list/calibri",
+    "img": "calibri.png"
+  },
+  {
+    "name": "CalifornianFB",
+    "link": "https://docs.microsoft.com/en-us/typography/font-list/californian-fb",
+    "img": "californianfb.png"
+  },
+  {
+    "name": "Calisto MT",
+    "link": "https://docs.microsoft.com/en-us/typography/font-list/calisto-mt",
+    "img": "calistomt.png"
+  },
+  {
+    "name": "Candara",
+    "link": "https://docs.microsoft.com/en-us/typography/font-list/candara",
+    "img": "candara.png"
+  },
+  {
+    "name": "Centaur",
+    "link": "https://www.myfonts.com/fonts/mti/centaur/#index",
+    "img": "centaur.png"
+  },
+  {
+    "name": "Century Gothic",
+    "link": "https://www.myfonts.com/fonts/mti/century-gothic/",
+    "img": "centurygothic.png"
+  },
+  {
+    "name": "Cocomat Light",
+    "link": "https://www.dafont.com/cocomat.font",
+    "img": "cocomatlight.png"
+  },
+  {
+    "name": "Cocon",
+    "link": "https://www.myfonts.com/fonts/fontfont/ff-cocon/",
+    "img": "cocon.png"
+  },
+  {
+    "name": "Code",
+    "link": "http://www.myfonts.com/fonts/font-fabric/code-pro/",
+    "img": "code.png"
+  },
+  {
+    "name": "Comic Sans MS",
+    "link": "https://www.fonts.com/font/microsoft-corporation/comic-sans",
+    "img": "comicsansms.png"
+  },
+  {
+    "name": "Consolas",
+    "link": "https://www.microsoft.com/en-us/download/details.aspx?id=17879",
+    "img": "consolas.png"
+  },
+  {
+    "name": "Constantia",
+    "link": "https://docs.microsoft.com/en-us/typography/font-list/constantia",
+    "img": "constantia.png"
+  },
+  {
+    "name": "Corbel",
+    "link": "https://www.fonts.com/font/microsoft-corporation/corbel",
+    "img": "corbel.png"
+  },
+  {
+    "name": "Courier New",
+    "link": "https://docs.microsoft.com/en-us/typography/font-list/courier-new",
+    "img": "couriernew.png"
+  },
+  {
+    "name": "Didot",
+    "link": "https://www.myfonts.com/fonts/linotype/didot/",
+    "img": "didot.png"
+  },
+  {
+    "name": "DIN",
+    "link": "https://www.myfonts.com/fonts/fontfont/ff-din/",
+    "img": "din.png"
+  },
+  {
+    "name": "Ebrima",
+    "link": "https://fontzone.net/font-details/ebrima",
+    "img": "ebrima.png"
+  },
+  {
+    "name": "Elephant",
+    "link": "https://www.fonts.com/font/carter-and-cone/elephant/regular",
+    "img": "elephant.png"
+  },
+  {
+    "name": "Encode Sans Condensed",
+    "link": "https://fonts.google.com/specimen/Encode+Sans+Condensed",
+    "img": "encodesanscondensed.png"
+  },
+  {
+    "name": "Eras Bold ITC",
+    "link": "https://www.dafontfree.net/freefonts-eras-bold-itc-f123435.htm",
+    "img": "erasbolditc.png"
+  },
+  {
+    "name": "FF Meta Pro Hairline",
+    "link": "https://www.fonts.com/font/fontfont/ff-meta/hairline",
+    "img": "ffmetaprohairline.png"
+  },
+  {
+    "name": "Forte",
+    "link": "https://catalog.monotype.com/family/monotype/forte",
+    "img": "forte.png"
+  },
+  {
+    "name": "Franklin Gothic Book",
+    "link": "https://www.fonts.com/font/urw/franklin-gothic/book",
+    "img": "franklingothicbook.png"
+  },
+  {
+    "name": "Freestyle Script",
+    "link": "https://www.fonts.com/font/adobe/freestyle-script",
+    "img": "freestylescript.png"
+  },
+  {
+    "name": "Frutiger",
+    "link": "https://www.fonts.com/font/linotype/frutiger/complete-family-pack",
+    "img": "frutiger.png"
+  },
+  {
+    "name": "Futura",
+    "link": "https://www.myfonts.com/fonts/bitstream/futura/",
+    "img": "futura.png"
+  },
+  {
+    "name": "Garamond",
+    "link": "https://typekit.com/fonts/adobe-garamond",
+    "img": "garamond.png"
+  },
+  {
+    "name": "Georgia",
+    "link": "https://www.myfonts.com/fonts/ascender/georgia/",
+    "img": "georgia.png"
+  },
+  {
+    "name": "Gill Sans",
+    "link": "https://www.myfonts.com/fonts/mti/gill-sans/",
+    "img": "gillsans.png"
+  },
+  {
+    "name": "Gravity",
+    "link": "https://www.behance.net/gallery/3407691/Gravity-New-free-font-experiment",
+    "img": "gravity.png"
+  },
+  {
+    "name": "Haettenschweiler",
+    "link": "https://www.fonts.com/font/microsoft-corporation/haettenschweiler",
+    "img": "haettenschweiler.png"
+  },
+  {
+    "name": "Harlow Solid",
+    "link": "https://www.fonts.com/font/itc/harlow",
+    "img": "harlowsoliditalic.png"
+  },
+  {
+    "name": "High Tide",
+    "link": "https://blkbk.ink/products/high-tides",
+    "img": "hightide.png"
+  },
+  {
+    "name": "Impact",
+    "link": "https://www.wfonts.com/font/impact",
+    "img": "impact.png"
+  },
+  {
+    "name": "ITC Blair",
+    "link": "https://www.myfonts.com/fonts/itc/blair/",
+    "img": "blairitc.png"
+  },
+  {
+    "name": "LemonMilk",
+    "link": "https://www.dafont.com/lemon-milk.font",
+    "img": "lemonmilk.png"
+  },
+  {
+    "name": "Letter Gothic std",
+    "link": "https://www.myfonts.com/fonts/mti/letter-gothic/",
+    "img": "lettergothicstd.png"
+  },
+  {
+    "name": "Luna",
+    "link": "https://www.behance.net/gallery/27812357/LUNA-Free-Font",
+    "img": "luna.png"
+  },
+  {
+    "name": "Magneto Bold",
+    "link": "https://fontzone.net/font-details/magneto-bold",
+    "img": "magnetobold.png"
+  },
+  {
+    "name": "Marbre Sans",
+    "link": "https://www.dafont.com/marbre-sans.font",
+    "img": "marbresans.png"
+  },
+  {
+    "name": "Minion Pro",
+    "link": "https://www.myfonts.com/fonts/adobe/minion/",
+    "img": "minionpro.png"
+  },
+  {
+    "name": "Mistral",
+    "link": "https://www.fonts.com/font/adobe/mistral/regular",
+    "img": "mistral.png"
+  },
+  {
+    "name": "Modern no. 20",
+    "link": "https://www.myfonts.com/fonts/bitstream/modern-no-20/",
+    "img": "modernno20.png"
+  },
+  {
+    "name": "Montserrat",
+    "link": "https://fonts.google.com/specimen/Montserrat",
+    "img": "montserrat.png"
+  },
+  {
+    "name": "museo slab 500",
+    "link": "https://www.myfonts.com/fonts/exljbris/museo-slab/500/",
+    "img": "museoslab500.png"
+  },
+  {
+    "name": "Muskaters",
+    "link": "https://fontbundles.net/font-bundles-store/58592-muskaters-duo-style-font-bonus",
+    "img": "muskaters.png"
+  },
+  {
+    "name": "Myriad",
+    "link": "https://www.fonts.com/font/adobe/myriads",
+    "img": "myriad.png"
+  },
+  {
+    "name": "NEOTERIC Bold",
+    "link": "https://www.dafont.com/neoteric.font",
+    "img": "neotericbold.png"
+  },
+  {
+    "name": "Open Sans",
+    "link": "https://fonts.google.com/specimen/Open+Sans",
+    "img": "opensans.png"
+  },
+  {
+    "name": "Raleway",
+    "link": "https://fonts.google.com/specimen/Raleway",
+    "img": "raleway.png"
+  },
+  {
+    "name": "Roboto",
+    "link": "https://fonts.google.com/specimen/Roboto",
+    "img": "roboto.png"
+  },
+  {
+    "name": "Rockwell",
+    "link": "https://www.myfonts.com/fonts/mti/rockwell/",
+    "img": "rockwell.png"
+  },
+  {
+    "name": "Times New Roman",
+    "link": "https://docs.microsoft.com/en-us/typography/font-list/times-new-roman",
+    "img": "timesnewroman.png"
+  },
+  {
+    "name": "Tox Typewriter",
+    "link": "https://www.dafont.com/tox-typewriter.font",
+    "img": "toxtypewriter.png"
+  },
+  {
+    "name": "Trajan",
+    "link": "https://www.fonts.com/font/adobe/trajan/regular",
+    "img": "trajan.png"
+  },
+  {
+    "name": "Univers",
+    "link": "https://www.myfonts.com/fonts/linotype/univers/",
+    "img": "univers.png"
+  },
+  {
+    "name": "Verdana",
+    "link": "https://docs.microsoft.com/en-us/typography/font-list/verdana",
+    "img": "verdana.png"
+  }
+]

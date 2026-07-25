@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<title>FontDatabase</title>
+	<link rel = "stylesheet" href = "styles.css">
+	<meta charset="utf-8">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans|Raleway&amp;subset=latin-ext" rel="stylesheet">
+	<meta name  = "viewport" content= "width =device-width, initial-scale =1.0">
+	<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+	<meta name="description" content="The hassle of font-hunting, gone.">
+
+</head>
+
+<body id = "body">
+
+	<a href = "index"><img src = "images/logo.png" alt = "fontdatabase logo" id ="logo"></a>
+	<nav>
+		<ul>
+			<li><a href = "index">Fontdatabase</a></li>
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			<li><a href = "about">How does it work?</a></li>
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			<li><a href = "supportus">Support us!</a></li>
+		</ul>
+	</nav>
+
+	<div class = "title">
+	<h1>FontDatabase</h1>
+	<h2>A designer's right hand.</h2>
+	</div>
+
+	<!--scripts-->
+	<script src = "https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src = "app.js"></script>
+	
+	<!--Content-->
+	<div id = "userInput">
+	<p id = "interface"> 
+		I want a font more
+		<select id="characteristic" onchange="setCharacteristic()">
+			<option selected disabled>Choose a characteristic</option>
+  	  		<option value= "formal">formal</option>
+   	 		<option value = "informal">informal</option>
+  	  		<option value = "serif">serif</option>
+  	  		<option value = "minimal">minimal</option>
+		</select>
+		 than 
+		<select id = "font" onchange="setFont()">
+			<option selected disabled>Choose a font</option>
+			<option value = "Agency FB">Agency FB</option>
+			<option value = "Agent">Agent</option>
+			<option value = "Arial">Arial</option>
+			<option value = "Asgalt">Asgalt</option>
+			<option value = "Avenir">Avenir</option>
+			<option value = "Bahnschrift">Bahnschrift</option>
+			<option value = "Baskerville Old Face">Baskerville Old Face</option>
+			<option value = "Bauhaus 93">Bauhaus 93</option>
+			<option value = "Bebas">Bebas</option>
+			<option value = "Berlin Sans FB">Berlin Sans FB</option>
+			<option value = "Bickham Script">Bickham Script</option>
+			<option value = "Blackladder ITC">Blackladder ITC</option>
+			<option value = "Blair ITC">Blair ITC</option>
+			<option value = "Bodoni MT">Bodoni MT</option>
+			<option value = "Book Antiqua">Book Antiqua</option>
+			<option value = "Brittanic Bold">Brittanic Bold</option>
+			<option value = "Brush Script MT">Brush Script MT</option>
+			<option value = "Calibri">Calibri</option>
+			<option value = "Californian FB">Californian FB</option>
+			<option value = "Calisto MT">Calisto MT</option>
+			<option value = "Candara">Candara</option>
+			<option value = "Centaur">Centaur</option>
+			<option value = "Century Gothic">Century Gothic</option>
+			<option value = "Cocomat Light">Cocomat Light</option>
+			<option value = "Cocon">Cocon</option>
+			<option value = "Code">Code</option>
+			<option value = "Comic Sans MS">Comic Sans MS</option>
+			<option value = "Consolas">Consolas</option>
+			<option value = "Constantia">Constantia</option>
+			<option value = "Corbel">Corbel</option>
+			<option value = "Courier New">Courier New</option>
+			<option value = "DIN">DIN</option>
+			<option value = "Didot">Didot</option>
+			<option value = "Ebrima">Ebrima</option>
+			<option value = "Elephant">Elephant</option>
+			<option value = "Encode Sans Condensed">Encode Sans Condensed</option>
+			<option value = "Eras Bold ITC">Eras Bold ITC</option>
+			<option value = "FF Meta Pro Hairline">FF Meta Pro Hairline</option>
+			<option value = "Forte">Forte</option>
+			<option value = "Franklin Gothic Book">Franklin Gothic Book</option>
+			<option value = "Freestyle Script">Freestyle Script</option>
+			<option value = "Frutiger">Frutiger</option>
+			<option value = "Futura">Futura</option>
+			<option value = "Garamond">Garamond</option>
+			<option value = "Georgia">Georgia</option>
+			<option value = "GillSans">Gill Sans</option>
+			<option value = "Gravity">Gravity</option>
+			<option value = "Haettenschweiler">Haettenschweiler</option>
+			<option value = "Harlow Solid Italic">Harlow Solid Italic</option>
+			<option value = "High Tide">High Tide</option>
+			<option value = "Impact">Impact</option>
+			<option value = "LemonMilk">LemonMilk</option>
+			<option value = "Letter Gothic std">Letter Gothic std</option>
+			<option value = "Luna">Luna</option>
+			<option value = "Magneto Bold">Magneto Bold</option>
+			<option value = "Marbre Sans">Marbre Sans</option>
+			<option value = "Minion Pro">Minion Pro</option>
+			<option value = "Mistral">Mistral</option>
+			<option value = "Modern no. 20">Modern no. 20</option>
+			<option value = "Montserrat">Montserrat</option>
+			<option value = "museo slab 500">museo slab 500</option>
+			<option value = "Muskaters">Muskaters</option>
+			<option value = "Myriad">Myriad</option>
+			<option value = "Open Sans">Open Sans</option>
+			<option value = "NEOTERIC Bold">NEOTERIC Bold</option>
+			<option value = "Raleway">Raleway</option>
+			<option value = "Roboto">Roboto</option>
+			<option value = "Rockwell">Rockwell</option>
+			<option value = "Times New Roman">Times New Roman</option>
+			<option value = "Trajan">Trajan</option>
+			<option value = "Univers">Univers</option>
+			<option value = "Verdana">Verdana</option>
+			<option value = "Tox Typewriter">Tox Typewriter</option>
+
+		</select>
+			<button class = "goButton" onclick="resetDiv();algo();">Go!</button>
+	</p>
+	<div id = "resultDiv"> 
+	</div>
+	</div>
+<footer>
+	<a href = "https://www.twitter.com/themcomp"><img src = "images/twitterbn.png" id = "twitter"></a> or <a href = "mailto:contactthemcompany@gmail.com">contact us.</a>
+</footer>
+		<div class="modes">
+            <button type="button" onclick="night()" class="buttonForModes" id = "nightMode">Night <img src = "images/mode.png" height = "20px" class = "mformodes">ode</button>
+			<button type="button" onclick="original()" class="buttonForModes" id = "regularMode">Regular <img src = "images/mode.png" height = "20px" class = "mformodes">ode</button>
+     </div>
+
+</body>
+</html>

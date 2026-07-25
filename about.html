@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>FontDatabase</title>
+	<link rel = "stylesheet" href = "styles.css">
+	<meta charset="utf-8">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans|Raleway" rel="stylesheet">
+	<meta name  = "viewport" content= "width =device-width, initial-scale =1.0">
+	<link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
+	<meta name="description" content="The hassle of font-hunting, gone.">
+
+	<!--Twitter card-->
+	<meta name="twitter:card" content="summary" />
+	<meta name="twitter:site" content="@TheMComp" />
+	<meta name="twitter:title" content="FontDatabase" />
+	<meta name="twitter:description" content="The hassle of font-hunting, gone." />
+	<meta name="twitter:image" content="https://i.imgur.com/FggKjdF.png" />
+</head>
+
+<body id = "body">
+<!--logo-->
+	<a href = "index"><img src = "images/daymode.png" alt = "fontdatabase logo" id ="logo"></a>
+<!--menu-->
+	<img src = "images/menu.png" class = "burgerMenu" onclick = "toggleMenu();">
+
+	<div class="navContainer">
+	<nav class = "fullNav">
+		<ul style="list-style: none">
+			<li><a href = "index">FontDatabase</a></li><br>
+			<li><a href = "about">About</a></li><br>
+			<li><a href = "https://www.patreon.com/themcompany" target = "_blank">Support us!</a></li>
+		</ul>
+	</nav>
+</div>
+	<div class = "title">
+	<h1>FontDatabase</h1>
+	<h2>A designer's right hand.</h2>
+	</div>
+
+	<div id = "howto">
+		<p style = "font-size: 22px; font-weight: bold;">How does FontDatabase work?</p>
+		<p>fontdatabase.app is a designer's best friend. We have all struggled, at one point or another, with choosing the perfect font
+		for a project. We always have one in mind, but it doesn't end up looking <em>quite</em> right. 100 Google searches and downloads later, we find one.<br> <br>
+		fontdatabase.app's aim is to make it way easier to choose and find them. Simply <strong>choose the font you have in mind</strong> as a base for the search, <strong>and the attribute you're looking for, and you're set!</strong> You'll find a <strong>curated selection</strong> of fonts with links to get them. Please keep in mind that attributes such as "more formal than x" or "more informal than y" are bound to be a bit subjective. However, the suggestions were of course curated with design theory in mind, so nothing should be wildly off.
+		</p>
+
+		<h3>You don't have X font! How?!</h3>
+		<p>fontdatabase is just always growing! If you want to leave feedback or make a suggestion, you're more than welcome to. Feel free to reach us on twitter or via <a href = "mailto:contactthemcompany@gmail.com" target="_blank">email</a>. You can suggest new fonts, new attributes, or whatever you have in mind.</p>
+
+		<h3>Anything else?</h3>
+		<p>Yes. We believe that if the possibility exists, most tools like this should be free to use. Which is why fontdatabase exists as an ad-free website. If you enjoy using it, and want more cool products to come, <strong>please consider <a href = "supportus"> supporting us</a></strong> by leaving a tip! Any amount helps cover the costs of the site and future projects, and it also helps us have more time to develop said products. Thank you!</p>
+</div>
+
+
+
+<script src = "app.js"></script>
+<footer>
+	Made by &nbsp;<a href = "https://TheMComp.com" target = "_blank"><img src = "images/mode.png" height = "23px" style="position: relative; top: 5px"></a>
+	<p><a href = "https://twitter.com/TheMComp" target="_blank"><img src = "images/twitterbn.png" height = "23px"></a></p>
+</footer>
+		<div class="modes">
+            <button type="button" onclick="day()" class="buttonForModes" id = "nightMode">Day <img src = "images/mode.png" height = "20px" class = "mformodes">ode</button>
+			<button type="button" onclick="night()" class="buttonForModes" id = "regularMode">Night <img src = "images/mode.png" height = "20px" class = "mformodes">ode</button>
+     </div>
+
+</body>
+</html>

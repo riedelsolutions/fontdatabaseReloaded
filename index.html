@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>FontDatabase</title>
+  <meta name="description" content="The hassle of font-hunting, gone." />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Carrois+Gothic&family=BBH+Bartle&display=swap" rel="stylesheet" />
+
+  <link rel="icon" href="/images/favicon.png" type="image/png" />
+</head>
+<body>
+  <div id="app">
+    <header class="site-header">
+      <div class="brand">
+        <p class="brand__title">fontdatabase</p>
+        <p class="brand__tagline">A designer's right hand.</p>
+      </div>
+      <button class="theme-toggle" id="theme-toggle" aria-label="Switch to night mode">
+        <span class="theme-toggle__dot" aria-hidden="true"></span>
+      </button>
+    </header>
+
+    <section class="query" id="query">
+      <p class="query__text">I want a font</p>
+
+      <div class="pill pill--select">
+        <select id="direction-select" aria-label="Direction">
+          <option value="more" selected>more</option>
+          <option value="less">less</option>
+        </select>
+        <i class="chevron" aria-hidden="true"></i>
+      </div>
+
+      <div class="pill pill--select">
+        <select id="characteristic-select" aria-label="Characteristic">
+          <option value="" selected disabled>Choose a characteristic</option>
+          <option value="formal">Formal</option>
+          <option value="informal">Informal</option>
+          <option value="serif">Serif</option>
+          <option value="minimal">Minimal</option>
+        </select>
+        <i class="chevron" aria-hidden="true"></i>
+      </div>
+
+      <p class="query__text">than</p>
+
+      <div class="pill pill--combobox" id="font-combobox">
+        <input
+          type="text"
+          id="font-input"
+          class="font-input"
+          placeholder="Choose a font"
+          autocomplete="off"
+          aria-label="Reference font"
+          aria-expanded="false"
+          role="combobox"
+        />
+        <i class="chevron" aria-hidden="true"></i>
+        <ul class="font-options" id="font-options" role="listbox" hidden></ul>
+      </div>
+    </section>
+
+    <section class="results" id="results" hidden>
+      <div class="results__header" id="results-header">
+        <p class="results__heading" id="results-heading"></p>
+        <div class="results__header-fade" aria-hidden="true"></div>
+      </div>
+      <ul class="results__list" id="results-list"></ul>
+    </section>
+
+    <footer class="site-footer" id="site-footer">
+      <p>© by <a href="https://twitter.com/whereskeyser" target="_blank" rel="noopener">@whereskeyser</a>. 2018-2026.</p>
+    </footer>
+  </div>
+
+  <script type="module" src="/src/main.js"></script>
+</body>
+</html>

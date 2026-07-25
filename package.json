@@ -1,0 +1,15 @@
+{
+  "name": "fontdatabase",
+  "private": true,
+  "version": "2.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "build:data": "node scripts/build-data.js"
+  },
+  "devDependencies": {
+    "vite": "^5.4.0"
+  }
+}

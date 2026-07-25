@@ -1,0 +1,323 @@
+
+*{
+	font-family: Open Sans, sans-serif;
+}
+
+body{
+	/* ORIGINAL :background-color: #d61353;*/
+	background-color: #a50b3e;
+}
+
+h1{
+	font-size: 80px;
+	color: #fff;
+	font-weight: lighter;
+}
+
+h2{
+	font-size: 30px;
+	color:#000;
+	font-weight: lighter;
+	text-align: right;
+}
+
+h3{
+	color: white;
+	font-size: 22px;
+}
+
+.title{
+	float: right;
+	line-height: 4px;
+	margin-top: 50px;
+	padding-right: 20%;
+	clear: both;
+	max-width: 100%;
+}
+
+#logo{
+	max-width: 70px;
+	float: left;
+	padding: 15px;
+}
+
+nav{
+	background-color: #5e005e;
+	border-radius: 50px;
+	max-width: 90%;
+	color:white;
+	font-size: 17px;
+	font-weight: lighter;
+	display: flex;
+	justify-content: space-around;
+    padding: 10px;
+    box-shadow: 10px 13px 37px -12px rgba(0,0,0,0.75);
+    margin-top: 30px;
+}
+
+.night{
+            background: black;
+            color:white;
+        }
+
+
+.day{
+    background: #a50b3e;
+   }
+
+.night h2, .night h1, .night #interface{
+	color:white;
+}
+
+.night select{
+	background-color: black;
+	border: none;
+}
+
+.night #resultDiv a {
+	color:white;
+
+}
+
+#nightMode{
+	
+}
+
+#regularMode{
+	display:none;
+}
+
+#nightMode,#regularMode{
+	float:right;
+}
+
+#nightMode{
+	border: none;
+	border-radius: 9px;
+	box-shadow:10px 13px 37px -12px rgba(0,0,0,0.75);
+	background-color:transparent;
+	color:white;
+	padding:4px;
+	padding-bottom: 7px;
+	padding-left: 7px;
+	padding-right: 7px;
+}
+
+.night #howto a, .night strong {
+	color:white;
+}
+#regularMode{
+	border: none;
+	border-radius: 9px;
+	background-color: transparent;
+	color:white;
+	color:white;
+	padding:4px;
+	padding-bottom: 7px;
+	padding-left: 7px;
+	padding-right: 7px;
+}
+
+.mformodes{
+	padding-right: 1px;
+	position:relative;
+	top:5px;
+}
+
+
+.buttonForModes{
+	margin-bottom:10px;
+}
+
+ul{
+	display: inline;
+}
+li{
+	display: inline;
+}
+
+a{
+	text-decoration: none;
+	color:white;
+}
+
+p,.goButton, #resetButton{
+	clear:both;
+	color:white;
+}
+
+#userInput{
+	font-size: 20px;
+	text-align: center;
+	padding-top: 200px;
+	max-width: 100%;
+
+}
+
+.goButton, #resetButton{
+	max-width: 100px;
+	background-color: #5e005e;
+	padding: 20px;
+	border: none;
+	margin-left: 30px;
+	border-radius: 40px;
+	box-shadow: 11px 9px 52px -15px rgba(0,0,0,0.75);
+}
+
+#results{
+	font-size: 16px;
+}
+#twitter{
+	max-width: 30px;
+}
+
+select{
+	position: relative;
+	border: none;
+	/*background-color:#d61353;*/
+	background-color: #a50b3e;
+	color: white;
+	height: 35px;
+	text-align: center;
+}
+
+#howto{
+	text-align: center;
+	max-width: 70%;
+	margin: auto;
+	margin-top: 250px;
+}
+
+#howto a{
+	color:black;
+	text-decoration: underline;
+}
+
+p strong{
+	color:black;
+}
+
+#resultDiv{
+	text-align: left;
+	padding-left: 30px;
+}
+#resultDiv a{
+	color: white;
+	font-size: 14px;
+	float: right;
+}
+
+#resultDiv p{
+	padding-left: 30px;
+}
+
+#but{
+	max-width: 200px;
+	margin: auto;
+	align-content: center;
+	position: relative;
+	left:20px;
+}
+
+footer{
+	color:white;
+	text-align: center;
+	clear:both;
+	margin-top: 130px;
+}
+
+#madeBy{
+	font-size: 11px;
+}
+
+footer a{
+	text-decoration: underline;
+}
+
+select{
+	width: 200px;
+	border-radius: 45px;
+}
+
+
+#resultDiv img{
+	max-width: 170%;
+	padding-bottom: 20px;
+	padding-top: 20px;
+	clear: both;
+	padding-left: none;
+}
+
+#support{
+	float: right;
+	clear: both;
+	position: relative;
+	text-align: right;
+	padding-right: 30px;
+}
+
+#support img{
+	padding: 20px;
+}
+#kofi,#paypal,#patreon{
+	display: inline-flex;
+	max-width:200px;
+	height: 200px;
+	padding:20px;
+	text-align: center;
+}
+
+#paypal img{
+	position: relative;
+	top:4%;
+}
+
+@media only screen and (max-width: 1149px){
+	nav{
+		font-size: 14px;
+	}
+}
+
+
+@media only screen and (max-width: 944px){
+
+	nav{
+			font-size: 8px;
+			justify-content: center;
+	}
+}
+
+
+
+@media only screen and (max-width: 768px){
+	nav{
+		
+		font-size: 10px;
+	}
+	.title{
+		margin: auto;
+		max-width: 70%;
+	}
+	h1{
+		font-size: 40px;
+	}
+	h2{
+		font-size: 17px;
+	}
+}
+
+@media only screen and (max-width: 560px){
+	nav{
+		font-size: 8px;
+	}
+
+	li{
+		display: flex;
+	}
+}
+
+@media only screen and (max-width: 425px){
+	nav{	
+		font-size: 6px;
+	}
+}

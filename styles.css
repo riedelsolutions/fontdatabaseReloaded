@@ -1,0 +1,395 @@
+body{
+	background-color: black;
+	font-family: Open Sans, sans-serif;
+}
+
+h1{
+	font-size: 80px;
+	color: #f2f2f2;
+	font-weight: lighter;
+}
+
+h2{
+	font-size: 30px;
+	color:#f2f2f2;
+	font-weight: lighter;
+	text-align: right;
+	float: right;
+	position: relative;
+	bottom: 20px;
+}
+
+h3{
+	color: white;
+	font-size: 22px;
+}
+
+.title{
+	float: right;
+	line-height: 4px;
+	margin-top: 50px;
+	padding-right: 20%;
+	clear: both;
+	max-width: 100%;
+	padding-bottom: 30px;
+}
+
+#logo{
+	max-width: 70px;
+	float: right;
+	padding: 20px;
+}
+
+.burgerMenu{
+	float: left;
+	padding-right: 20px;
+	padding-top:20px;
+	padding-left: 20px;
+	cursor:pointer;
+}
+
+.navContainer{
+	position: relative;
+}
+
+.fullNav{
+	display: none;
+}
+
+nav{
+	background-color: #f2f2f2;
+	border-radius: 10px;
+	width: 200px;
+	max-height: 250px;
+	color:black;
+	font-size: 17px;
+    padding: 10px;
+    box-shadow: 10px 13px 37px -12px rgba(0,0,0,0.75);
+    margin-top: 30px;
+    font-family: 'Raleway', sans-serif;
+    position: absolute;
+    z-index: 2;
+}
+
+nav a{
+	color:black;
+}
+
+ul{
+	display: inline;
+}
+
+li{
+	display:list-item;
+}
+
+.night{
+    background: black;
+    color: #f2f2f2;
+}
+
+.day{
+    background: #a50b3e;
+}
+
+.day h2{
+	color: black;
+}
+
+.day select{
+	background-color: #a03357;
+}
+
+.night h2, .night h1, .night #interface{
+	color:white;
+}
+
+#interface select{
+	color: #f2f2f2;
+}
+
+.night select{
+	background-color: #282828;
+	border: none;
+}
+
+.night #interface select{
+	color:white;
+}
+
+.night #resultDiv a {
+	color:white;
+
+}
+
+#regularMode{
+	display:none;
+}
+
+#nightMode,#regularMode{
+	float:right;
+}
+
+#nightMode{
+	border: none;
+	border-radius: 9px;
+	box-shadow:10px 13px 37px -12px rgba(0,0,0,0.75);
+	background-color:transparent;
+	color:white;
+	padding:4px;
+	padding-bottom: 7px;
+	padding-left: 7px;
+	padding-right: 7px;
+}
+
+.night #howto a, .night strong {
+	color:white;
+}
+
+
+#regularMode{
+	border: none;
+	border-radius: 9px;
+	background-color: transparent;
+	color:white;
+	color:white;
+	padding:4px;
+	padding-bottom: 7px;
+	padding-left: 7px;
+	padding-right: 7px;
+	border-bottom: 0.5px solid #a03357
+}
+
+
+.mformodes{
+	padding-right: 1px;
+	position:relative;
+	top:5px;
+}
+
+#nightMode{
+	border-bottom: 0.5px solid #282828;
+}
+
+.buttonForModes{
+	margin-bottom:10px;
+}
+
+.modes button{
+	cursor: pointer;
+}
+
+
+a{
+	text-decoration: none;
+	color:white;
+}
+
+p,.goButton, #resetButton{
+	clear:both;
+	color:white;
+}
+
+#userInput{
+	font-size: 20px;
+	text-align: center;
+	padding-top: 200px;
+	max-width: 100%;
+
+}
+
+#characteristic, #font{
+	color:#f2f2f2;
+}
+
+.goButton{
+	max-width: 100px;
+	background-color: #f2f2f2;
+	padding: 20px;
+	border: none;
+	margin-left: 30px;
+	border-radius: 30px;
+	box-shadow: 11px 9px 52px -15px rgba(0,0,0,0.75);
+	color: black;
+	font-weight: bold;
+	font-family: 'Open Sans', sans-serif;
+}
+
+#results{
+	font-size: 16px;
+}
+#twitter{
+	max-width: 30px;
+}
+
+select{
+	position: relative;
+	border: none;
+	background-color: #282828;
+	height: 35px;
+	text-align: center;
+	margin-right: 10px;
+	margin-left: 10px;
+	color: #f2f2f2;
+	width: 300px;
+	border-radius: 7px;
+}
+
+#howto{
+	text-align: center;
+	max-width: 70%;
+	margin: auto;
+}
+
+#howto a{
+	color:white;
+	text-decoration: underline;
+}
+
+p strong{
+	color:white;
+}
+
+#resultDiv{
+	text-align: left;
+	padding-left: 30px;
+	padding-top: 40px;
+}
+
+#resultDiv h3{
+	margin-bottom: 50px;
+}
+
+#resultDiv a{
+	color: white;
+	font-size: 14px;
+	float: right;
+}
+
+#resultDiv p{
+	padding-left: 30px;
+}
+
+footer{
+	color:white;
+	text-align: center;
+	clear:both;
+	margin-top: 130px;
+	font-size:14px;
+}
+
+.madeBy{
+	font-size: 9px;
+}
+
+footer a{
+	text-decoration: underline;
+}
+
+#resultDiv img{
+	max-width: 170%;
+	padding-bottom: 20px;
+	padding-top: 20px;
+	clear: both;
+	padding-left: none;
+}
+
+#support{
+	float: right;
+	clear: both;
+	position: relative;
+	text-align: right;
+	padding-right: 30px;
+}
+
+#support img{
+	padding: 20px;
+}
+#kofi,#paypal,#patreon{
+	display: inline-flex;
+	max-width:200px;
+	height: 200px;
+	padding:20px;
+	text-align: center;
+}
+
+#paypal img{
+	position: relative;
+	top:4%;
+}
+
+@media only screen and (max-width: 1149px){
+	nav{
+		font-size: 14px;
+	}
+}
+
+
+
+@media only screen and (max-width: 768px){
+	.title{
+		margin: auto;
+	}
+
+	#userInput select{
+		margin: 20px;
+	}
+
+	h1{
+		font-size: 50px;
+	}
+	h2{
+		font-size: 20px;
+	}
+
+	#logo{
+		max-width: 10%;
+	}
+}
+
+@media only screen and (max-width: 560px){
+
+	.title{
+		right: 0;
+		max-width: 60%
+	}
+	li{
+		display: flex;
+	}
+
+	h1{
+		font-size: 40px;
+	}
+
+	h2{
+		font-size: 15px;
+	}
+}
+
+@media only screen and (max-width: 600px){
+	nav{	
+		display: none;
+	}
+}
+
+@media only screen and (max-width: 458px){
+	.goButton{
+		position: relative;
+		right: 12px;
+	}
+	.title{
+		margin-top: 15px;
+	}
+	h1{
+		font-size: 30px;
+	}
+
+	h2{
+		font-size:14px;
+		bottom: 1px;
+	}
+
+	#userInput{
+		font-size: 16px;
+	}
+}
